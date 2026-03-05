@@ -66,3 +66,14 @@ TEMPLATES = [
         },
     },
 ]
+
+# Static files (CSS, JavaScript, Images)
+STATIC_URL = '/static/'
+
+# Optional: for local development, collect all static files here
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+# Optional: for static assets during development
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
