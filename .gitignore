@@ -20,5 +20,10 @@ media/
 .DS_Store
 Thumbs.db
 
+# Python cache
+*.pyc
+__pycache__/
+
+
 # VSCode
 .vscode/
